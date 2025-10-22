@@ -1,0 +1,23 @@
+body{
+        color: rgba(155, 12, 36, 0.795);
+        background: white;
+         margin:0px;
+        font-family: "Tinos", sans-serif;
+    }
+
+    header{
+        border-bottom: solid 2px black;
+        padding:20px;
+        font-size: 32px;
+        color: rgba(155, 12, 36, 0.795);
+    }
+     section{
+        background: black;
+        padding-bottom: 80px;
+        padding-top: 80px;
+        display: flex;
+        justify-content: center;
+    }
+    .chamada-texto{
+        margin-right:5%;
+    }
