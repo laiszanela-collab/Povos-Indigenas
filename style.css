@@ -3,6 +3,7 @@ body{
         background: white;
          margin:0px;
         font-family: "Tinos", sans-serif;
+         margin-bottom: 100px;
     }
 
     header{
@@ -20,4 +21,27 @@ body{
     }
     .chamada-texto{
         margin-right:5%;
+    }
+      .categoria-videos{
+       display:flex;
+       overflow-x: alto; 
+       gap:10px;
+    }
+    .categoria{
+        padding-laft: 20px;
+        padding-rigth: 20px;
+        margin-top: 50px;
+    }
+
+    .categoria-videos img{
+        opacity: 0.5;
+        height:200px;
+    }
+    .categoria-videos img:hover{
+        opacity: 1.0;
+        border: 1px solid rgb(168, 48, 27);
+    
+    }
+    .categoria h2{
+        color:rgb(209, 57, 57);
     }
