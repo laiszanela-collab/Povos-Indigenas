@@ -1,53 +1,54 @@
 body{
-        color: rgba(155, 12, 36, 0.795);
-        background: white;
-         margin:0px;
-        font-family: "Tinos", sans-serif;
-         margin-bottom: 100px;
-    }
+    color: rgb(128, 26, 0);
+    background: rgb(192, 53, 53);
+    margin: 0px;
+    font-family: "Permanent Marker", sans-serif;
+    margin-bottom: 100px;
+}
+header{
+    border-bottom: solid 2px rgb(165, 25, 25);
+    padding: 20px;
+    font-size: 32px;
+    color:rgb(236, 80, 80);
+}
 
-    header{
-        border-bottom: solid 2px black;
-        padding:20px;
-        font-size: 32px;
-        color: rgba(155, 12, 36, 0.795);
-    }
-   .chamada{
+.chamada{
+    background: white;
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
     justify-content: center;
-   }
-    .chamada-texto{
-        margin-right:5%;
-    }
-    h1{
-        font-size: 40px;
-    }
-    p{
-        font-size: 20px;
-    }
+}
 
-      .categoria-videos{
-       display:flex;
-       overflow-x: alto; 
-       gap:10px;
-    }
-    .categoria{
-        padding-left: 20px;
-        padding-right: 20px;
-        margin-top: 50px;
-    }
+.chamada-texto{
+    margin-right: 5%;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+}
 
-    .categoria-videos img{
-        opacity: 0.5;
-        height:200px;
-    }
-    .categoria-videos img:hover{
-        opacity: 1.0;
-        border: 1px solid rgb(168, 48, 27);
-    
-    }
-    .categoria h2{
-        color:rgb(209, 57, 57);
-    }
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img{
+    opacity: 0.5;
+    height: 200px;
+}
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid rgba(182, 19, 19, 0.973);
+}
+.categoria h2{
+    color: rgb(209, 6, 6);
+}
