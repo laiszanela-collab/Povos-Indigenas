@@ -1,15 +1,15 @@
 body{
     color: rgb(128, 26, 0);
-    background: rgb(192, 53, 53);
+    background: rgb(90, 3, 3);
     margin: 0px;
     font-family: "Permanent Marker", sans-serif;
     margin-bottom: 100px;
 }
 header{
-    border-bottom: solid 2px rgb(165, 25, 25);
+    border-bottom: solid 2px rgb(117, 2, 2);
     padding: 20px;
     font-size: 32px;
-    color:rgb(236, 80, 80);
+    color:rgb(165, 17, 17);
 }
 
 .chamada{
@@ -47,7 +47,7 @@ p{
 }
 .categoria-videos img:hover{
     opacity: 1.0;
-    border: 1px solid rgba(182, 19, 19, 0.973);
+    border: 1px solid rgba(158, 13, 13, 0.973);
 }
 .categoria h2{
     color: rgb(209, 6, 6);
